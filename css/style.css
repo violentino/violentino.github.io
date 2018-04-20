@@ -1,0 +1,303 @@
+@import url(http://allfont.ru/allfont.css?fonts=ag_university);
+font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Radomir Tinkov - Gilroy-Light.otf');
+    }
+@media screen and (max-width: 1980px) {
+a:hover {
+	text-decoration: none;
+	color: #60d2ac;
+}
+
+h3 {
+	font-size: 37px;
+	font-family: 'Gilroy', ;
+	margin-left: 250px;
+	color: #ffcccc;
+	font-weight: 300;
+}
+
+p {
+	margin-left: 250px;
+	font-size: 20px;
+	color: #30c493;
+	font-family: 'Gilroy', ;
+	font-weight: 300;
+}
+
+/* Первый экран */
+
+.header {
+    background: #1a9169;
+    color: #ffcccc;
+    height: 150px;
+}
+
+.logo {
+	margin-top: -80px;
+	margin-bottom: 10px;
+}
+
+.head {
+	margin-left: 160px;
+	margin-top: 44px;
+	margin-bottom: -37px;
+	font-family: 'AG_University', arial;
+	font-size: 40px;
+}
+
+.head__text {
+	margin-left: 160px;
+	margin-top: 20px;
+	margin-bottom: -37px;
+	font-family: 'AG_University', arial;
+	font-size: 40px;
+}
+
+.icon {
+	margin-top: 50px;
+	font-size: 18px;
+	font-family: 'Gilroy', ;
+	font-weight: 300;
+}
+
+.fa-map-marker {
+	color: #33cc99;
+	border-radius: 50%;
+	width: 31px;
+	height: 31px;
+	background: #1a9169;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 11px;
+	box-shadow: 0px 0px 0px 1px #27b082;
+}
+
+.fa-phone {
+	color: #33cc99;
+	border-radius: 50%;
+	width: 31px;
+	height: 31px;
+	background: #1a9169;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 11px;
+	box-shadow: 0px 0px 0px 1px #27b082;
+	margin-top: -5px;
+}
+
+.fa-instagram {
+	color: #33cc99;
+	border-radius: 50%;
+	width: 31px;
+	height: 31px;
+	background: #1a9169;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 11px;
+	box-shadow: 0px 0px 0px 1px #27b082;
+	margin-top: -2px;
+}
+
+.fa-vk {
+	color: #33cc99;
+	border-radius: 50%;
+	width: 31px;
+	height: 31px;
+	background: #1a9169;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 11px;
+	box-shadow: 0px 0px 0px 1px #27b082;
+	margin-top: 7px;
+}
+
+.icon__item {
+	font-size: 22px;
+	margin-left: 10px;
+	font-family: 'Gilroy', ;
+	font-weight: 300;
+	color: #ffcccc;
+}
+
+.icon__after {
+	position: absolute;
+	margin-left: 315px;
+	margin-top: -70px;
+}
+/* Второй экран */
+#features {
+	height: 100vh;
+	background: url(../img/back1.jpg) no-repeat center top / cover;
+	box-shaow: 6000px 0 0 0 rgba(0, 0, 0, 0.33) inset;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.title__main {
+	font-size: 43px;
+	color: #1a9169;
+	font-family: 'Gilroy', ;
+	font-weight: 400;
+	margin-top: 400px;
+	letter-spacing: normal;
+	letter-spacing: 0.5px;
+	padding-left: 53px;
+	position: relative;
+}
+
+.title {
+	font-family: 'Gilroy', ;
+	font-weight: 500;
+}
+
+.title__img {
+	position: absolute;
+	margin-top: -320px;
+	padding-left: 3px;
+}
+
+.button {
+	background: #cde9e3;
+	color: #1a9169;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0px auto;
+	display: block;
+	width: 338px;
+	margin-top: 30px;
+	transition: all 0.5s ease;
+	margin-left: 53px;
+	box-shadow: 0px 0px 0px 3px #27b082;
+	position: relative;
+	font-family: 'Gilroy', ;
+	font-weight: 500;
+}
+
+.button:hover {
+	background: #fff;
+}
+
+.button:active {
+	background: #fff;
+}
+
+#touch {
+	height: 180vh;
+	background: url(../img/back5.jpg) no-repeat center top / cover;
+	box-shaow: 6000px 0 0 0 rgba(0, 0, 0, 0.33) inset;
+}
+
+.block {
+	margin-top: 31px;
+	font-size: 25px;
+	font-family: 'Gilroy', ;
+}
+
+.block__img {
+	position: relative;
+	margin-top: -480px;
+}
+
+.block__text {
+	font-size: 23px;
+	text-decoration: underline;
+	font-family: 'Gilroy', ;
+}
+
+.images {
+	position: relative;
+	margin-left: 900px;
+	margin-top: -474px;
+}
+
+
+ul {
+	display: block; 
+	float: left;
+	font-size: 22px;
+	color: #33cc99;
+	margin-left: 230px;
+	position: relative;
+	font-family: 'Gilroy', ;
+	font-weight: 300;
+}
+
+.menu span {
+	
+}
+
+.line__logo {
+	margin-top: 460px;
+	margin-left: 244px;
+}
+
+.line__logotwo {
+	margin-left: 248px;
+}
+
+.menu span {
+	float: right;
+	font-weight: ;
+	margin-left: 70px;
+	color: #ffcccc;
+}
+
+.menu__two {
+	margin-left: 7px;
+	font-family: 'Gilroy', ;
+}
+
+.menu__two span {
+	float: right;
+	font-weight: ;
+	margin-left: 70px;
+	color: #ffcccc;
+}
+
+.maps {
+	background: #1a9169;
+	padding-left: 80px;
+	
+}
+/* Футер */
+.footer {
+	background: #1a9169;
+    color: #ffcccc;
+    height: 179px;
+}
+
+.logo__two {
+	margin-top: -133px;
+}
+
+.headtwo {
+	position: relative;
+	margin-top: 43px;
+	margin-left: 160px;
+	font-family: 'AG_University', arial;
+	font-size: 43px;
+}
+
+.head__texttwo {
+	position: relative;
+	margin-top: -26px;
+	margin-left: 160px;
+	font-family: 'AG_University', arial;
+	font-size: 43px;
+}
+
+}
